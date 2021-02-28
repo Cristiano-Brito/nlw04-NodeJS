@@ -17,9 +17,9 @@ class Survey {
 
     constructor() {
         if(!this.id) {
-            this.id = uuid()
+            this.id = uuid();
         }
     }
 }
 
-export { Survey }
+export { Survey };
